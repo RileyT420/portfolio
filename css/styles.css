@@ -1,11 +1,27 @@
-a {
-  font-size: 10px;
+.flex-container{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+color: #f7f7ff;
+height: 98vh;
+width: 98vw
 }
-h1 {
-font-size: 100px;
-text-align: center;
+.a {
+  font-size: 20px;
+  align-self: flex-end;
 }
-p {
-font-size: 40px;
-text-align: center;
+.h1 {
+font-size: 50px;
+align-self: center;
+}
+.j{
+  font-size: 40px;
+align-self:center;
+}
+.s{
+  align-self: center;
+}
+.g{
+align-self: flex-end;
+align-items: flex-end;
 }
